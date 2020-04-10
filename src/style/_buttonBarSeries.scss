@@ -1,0 +1,61 @@
+.buttonBar {
+    border-radius: 15px;
+}
+
+.buttonNormal {
+    cursor: pointer;
+    color: #000000;
+    background-color: #f5f5f8;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 16px;
+    text-align: center;
+
+    &:hover {
+        background-color: #f0f0f3;
+    }
+}
+
+.buttonNormalSmall {
+    @extend .buttonNormal;
+    font-size: 12px;
+    padding: 8px 14px;
+}
+
+.buttonNormalLeft {
+    border-radius: 5px 0 0 5px;
+}
+
+.buttonNormalRight {
+    border-radius: 0 5px 5px 0;
+}
+
+.buttonHighlighted {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    background: #21a09c;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.31);
+}
+
+.buttonHighlightedSmall {
+    @extend .buttonHighlighted;
+    font-size: 12px;
+    padding: 8px 12px;
+}
+
+@media (max-width: 768px) {
+    .buttonNormal {
+        padding: 6px 9px;
+        font-size: 10px;
+    }
+
+    .buttonHighlighted {
+        padding: 6px 9px;
+        font-size: 10px;
+    }
+}

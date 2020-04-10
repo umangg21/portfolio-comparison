@@ -1,0 +1,100 @@
+$nav-color: #0f1f36;
+$light-gray: #a0a0a0;
+
+.legendBox {
+    height: 6px;
+    width: 24px;
+    border-radius: 3px;
+}
+
+.legendText {
+    color: $light-gray;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.toolTipBackground {
+    background-color: #ffffff;
+    padding: 8px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #e7e7e7;
+    box-shadow: 2px 0 13px 1px rgba(0, 0, 0, 0.04);
+}
+
+tspan {
+    font-size: 11px;
+    font-weight: 600;
+    fill: $light-gray;
+}
+
+.navbar {
+    min-height: 60px;
+    background-color: $nav-color;
+}
+
+.body-container {
+    margin-top: 30px;
+}
+
+.chat-container {
+    background-color: $nav-color;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.body-benchmark-container {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.benchmark-vs-sign {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #347af7;
+}
+
+.fs {
+    &-11 {
+        font-size: 11px;
+    }
+
+    &-12 {
+        font-size: 12px;
+    }
+
+    &-13 {
+        font-size: 13px;
+    }
+
+    &-14 {
+        font-size: 14px;
+    }
+
+    &-18 {
+        font-size: 18px;
+    }
+
+    &-24 {
+        font-size: 24px;
+    }
+}
+
+.fw {
+    &-500 {
+        font-weight: 500;
+    }
+
+    &-600 {
+        font-weight: 600;
+    }
+}
+
+.text {
+    &-end {
+        text-align: end;
+    }
+}
