@@ -10,7 +10,6 @@ import {
     YAxis,
 } from 'recharts'
 import RoundedRectLegend from './common/RoundedRectLegend'
-import Utils from '../Utils/Utils'
 import dayjs from 'dayjs'
 
 const dateFormat = "MMM YYYY"
@@ -96,7 +95,7 @@ class InstitutionalFundFlowTooltip extends Component {
                         </div>
                         <span className="fs-12 text-muted mr-2">{title}</span>
                     </div>
-                        <p className="fs-14 text-end mr-2 fw-600 text-primary">${Utils.addCommas(value?.toFixed(2))} {currency}</p>
+                        <p className="fs-14 text-end mr-2 fw-600 text-primary">${value?.toFixed(2)} {currency}</p>
 
                 </div>
             )
