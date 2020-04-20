@@ -1,7 +1,7 @@
 {
-  "name": "stash-away",
+  "name": "portfolio-comparison",
   "version": "0.1.0",
-  "homepage": "http://umangg21.github.io/stash-away",
+  "homepage": "http://umangg21.github.io/portfolio-comparison",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
