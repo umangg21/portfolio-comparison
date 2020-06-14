@@ -6,7 +6,7 @@ export default class ApiService {
 
 
     static getStartDate = (time) => {
-        let todaydate = new Date(new Date().setHours(0, 0, 0, 0))
+        let todaydate = new Date(new Date(2020, 3, 9).setHours(0, 0, 0, 0))
         let newDate;
         switch (time) {
             case "1m":
@@ -66,7 +66,7 @@ export default class ApiService {
 
         if (Array.isArray(data1?.chart?.result[0]?.timestamp)) {
             for (let index = startIndex; index < endIndex; index++) {
-                
+
                 const timestamp = data1.chart.result[0].timestamp[index] * 1000;
 
                 let multiplier = 1
